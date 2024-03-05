@@ -1,0 +1,23 @@
+{
+  "copyright": "Copyright © Unfunny Co, All Rights Reserved.",
+  "theme": "retro",
+  "fundingText": "",
+  "author": "Unfunny.co",
+  "name": "Unfunny.co",
+  "banner": "/unfunny.jpg",
+  "pageSize": 15,
+  "fundingUrl": "",
+  "owner": "",
+  "favicon": "/unfunny.jpg",
+  "explicit": false,
+  "cover": "/unfunny.jpg",
+  "language": "en",
+  "link": "https://unfunny.co",
+  "email": "contact@unfunny.co",
+  "description": "A short description of your podcast. We suggest creating a podcast description between 600-900 characters or 120-170 words in length.",
+  "category": [
+    "Comedy",
+    "Gaming"
+  ],
+  "feedSize": ""
+}
