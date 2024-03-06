@@ -8,7 +8,7 @@ import InstagramIcon from "../icons/instagramIcon.astro";
 import NewsletterIcon from "../icons/newsletterIcon.astro";
 import LinkedinIcon from "../icons/linkedinIcon.astro";
 import GithubIcon from "../icons/githubIcon.astro";
-
+import DiscordIcon from "../icons/discordIcon.astro";
 
 import ExternalLinkIcon from "../icons/externalLinkIcon.astro";
 
@@ -21,6 +21,8 @@ for (const key in social) {
   }
 }
 ---
+
+
 {hasSocial && (
 <div class="dropdown dropdown-hover dropdown-end">
   <label tabindex="0" class="btn btn-ghost m-1 px-2 sm:px-4">
@@ -36,6 +38,7 @@ for (const key in social) {
     {social.telegram && (<li><a href={social.telegram}><TelegramIcon />Telegram</a></li>)}
     {social.linkedin && (<li><a href={social.linkedin}><LinkedinIcon />Linkedin</a></li>)}
     {social.newsletter && (<li><a href={social.newsletter}><NewsletterIcon />Newsletter</a></li>)}
+    {social.discord && (<li><a href={social.discord}><DiscordIcon />Discord</a></li>)}
   </ul>
 </div>
 )}
